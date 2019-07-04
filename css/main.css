@@ -1,0 +1,253 @@
+@font-face {
+    font-family: 'heavy_dataregular';
+    src: url('../fonts/heavy_data-webfont.eot');
+    src: url('../fonts/heavy_data-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/heavy_data-webfont.woff') format('woff'),
+         url('../fonts/heavy_data-webfont.ttf') format('truetype'),
+         url('../fonts/heavy_data-webfont.svg#heavy_dataregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ambleregular';
+    src: url('../fonts/Amble-Regular-webfont.eot');
+    src: url('../fonts/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Amble-Regular-webfont.woff') format('woff'),
+         url('../fonts/Amble-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'impact_labelregular';
+    src: url('../fonts/Impact_Label-webfont.eot');
+    src: url('../fonts/Impact_Label-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Impact_Label-webfont.woff') format('woff'),
+         url('../fonts/Impact_Label-webfont.ttf') format('truetype'),
+         url('../fonts/Impact_Label-webfont.svg#impact_labelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'firecatmedium';
+    src: url('../fonts/FirecatMedium-webfont.eot');
+    src: url('../fonts/FirecatMedium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/FirecatMedium-webfont.woff') format('woff'),
+         url('../fonts/FirecatMedium-webfont.ttf') format('truetype'),
+         url('../fonts/FirecatMedium-webfont.svg#firecatmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'distant_galaxyregular';
+    src: url('../fonts/DISTGRG_-webfont.eot');
+    src: url('../fonts/DISTGRG_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DISTGRG_-webfont.woff') format('woff'),
+         url('../fonts/DISTGRG_-webfont.ttf') format('truetype'),
+         url('../fonts/DISTGRG_-webfont.svg#distant_galaxyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+	background-image:url('../img/background.jpg');
+	background-size:contain;
+}
+
+body {
+	color:orange;
+	border:1px dashed solid;
+	font-family:"ambleregular";
+	background:rgba(255,255,0,0.9);
+}
+
+div {
+	opacity:1;
+}	
+
+	
+header h1{
+	font-family:'heavy_dataregular';
+	font-size:106px;
+	color:darkslategrey;
+}
+header h2{
+	text-align:center;
+	font-family:'heavy_dataregular';
+	color:darkslategrey;
+	margin-top:-24px;
+}
+
+
+.main-content > h2{
+	font-family:'heavy_dataregular';
+	color:red;
+	text-align:center;
+	margin-bottom:20px;
+}
+	
+a{
+	color:red;
+	font-weight:bold;
+}	
+	
+.labeldings{
+	font-size: 28px;
+	background: black;
+	text-align: center;
+	line-height: 35px;
+	color: wheat;
+	font-style: italic;
+	padding: 20px;
+}	
+	
+.main-content{
+	margin:auto;
+	width:600px;
+	background:rgba(255,255,255,0.7);
+}	
+
+.front-page{
+	border:30px solid red;
+	margin-top: 15%;
+	margin-bottom: 10px;
+	
+}
+
+.front-page h1{
+	font-size: 78px;
+	text-align: center;
+	margin-bottom: 20px;
+
+}
+
+.main-content2 {
+	margin:auto;
+	width:600px;
+	background:rgba(0,0,0,0.3);
+	overflow: auto;
+	padding: 10px;
+
+}
+
+
+.huge{
+	font-size:60px;
+	font-family:'impact_labelregular';
+	color: black;
+	font-size: 40px;
+	display: block;
+	float: left;
+	position: absolute;
+
+			    transform:rotate(90deg);
+			-ms-transform:rotate(90deg); /* IE 9 */
+	    -webkit-transform:rotate(90deg); /* Safari and Chrome */
+	
+	position: fixed;
+	left: -419px;
+	top: 440px;
+	
+	
+}
+	
+
+.bandcontainer{
+	padding-bottom:20px;
+	border-bottom:10px solid black;
+	margin-bottom:20px;
+	background:red;
+	padding:20px;
+	border-right:10px solid black;
+}	
+
+.bandcontainer h1{
+	font-size:30px;
+	margin:0 0 10px 0;
+	color:wheat;
+	
+}
+
+.bandcontainer p{
+	font-family:Arial, sans-serif;
+  color:wheat;
+}	
+	
+.bandcontainer img{
+	width:40%;
+	float:right;
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+footer{
+	text-align:center;
+	padding-bottom:20px;
+}
+
+
+/* Front page styling */
+
+
+.labelsection, .studiosection{
+	
+	width:280px;
+	float:left;
+	background:darkgreen;
+	padding:10px;
+
+	
+}
+
+.labelsection h1, .studiosection h1{
+	margin:0;
+	text-align:center;
+    font-family: 'distant_galaxyregular';
+	letter-spacing:10px;
+	
+}
+
+.main-content2 a{
+		color:lightsalmon;
+}
+
+.main-content2 a:hover{
+		color:white;
+		background:red;
+}
+
+.main-content2 a h1.ugly {
+	color:lime;
+}
+
+.main-content2 a:hover h1.ugly {
+	color:orange;
+}
+
+.labelsection p, .studiosection p{
+	margin:0;
+	color:black;
+}
+
+
+.studiosection{
+	
+	margin-left:20px;
+	
+}
+
+h2.tittel {
+	font-family:"ambleregular";
+    color:white;
+}
